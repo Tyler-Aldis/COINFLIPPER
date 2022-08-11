@@ -1,0 +1,82 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, orange, white);
+}
+
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    padding: 25px;
+}
+
+/* Controls and Message Styles */
+.controls {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.message-container {
+    color: darkorange;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.5em;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#flip-penny {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background: linear-gradient(to top right, #0000ff 0%, #ffff00 100%);
+}
+
+#clear-score {
+    color: rgb(202, 202, 250);
+    background: linear-gradient(to top, #6600cc 21%, #ffff00 96%);
+}
+
+#flip,
+#roll {
+    background: linear-gradient(to bottom left, lightblue, white);
+}
+
+#flip-penny:hover,
+#clear-score:hover {
+    background: linear-gradient(to bottom left, darkblue, lightblue);
+}
+
+#clear {
+    background: linear-gradient(to bottom left, orange, white);
+}
+
+#clear:hover {
+    background: linear-gradient(to bottom left, red, orange);
+}
+
+/* Scoreboard Styles */
+table, 
+th, 
+td {
+    border: 1px solid darkorange;
+    margin: 0 auto;
+}
+
+td {
+    padding: 5px;
+    font-weight: bold;
+}
